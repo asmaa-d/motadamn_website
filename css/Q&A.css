@@ -1,0 +1,410 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-item .carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    margin-bottom: 20%;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+
+
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+
+/* end navbar */
+
+/* start question */
+
+.questions{
+    position: relative;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    
+}
+
+.questions .answer{
+    border: 1px solid #86B9F7;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.questions .answer-two ,
+.questions .answer-three ,
+.questions .answer-four ,
+.questions .answer-five , 
+.questions .answer-six ,
+.questions .answer-seven{
+    display: none;
+}
+
+.questions .answer h3{
+    font-size: 1.5rem;
+}
+
+.questions .answer-one p{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #70707096;
+}  
+
+.questions .answer-two p ,
+.questions .answer-three p ,
+.questions .answer-four p ,
+.questions .answer-five p ,
+.questions .answer-six p{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;  
+}
+
+.questions .question{
+    border: 1px solid #86B9F7;
+    background: #fff;
+    padding: 20px 10px;
+    width: 80%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.questions .question .ques{
+    border-bottom:1px solid #F7DC0C ;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.questions .question .no-border{
+    border-bottom: none;
+}
+
+.questions .question .ques:hover label h4 ,
+.questions .question .ques:hover i{
+    color: #F7DC0C;
+}
+
+.questions .ques .i{
+    padding-right: 27%;
+    padding-left: 5%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.questions .question .ques label h4{
+    font-size: 1.25rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.questions .question .label1{ margin-left: 15%;}
+
+.questions .question .label3{ margin-left: 8%;}
+
+.questions .question .label4{ margin-left: 34%;}
+
+.questions .question .label5{ margin-left: 5%; }
+
+.questions .question .label6{ margin-left: 35%;}
+
+.questions .question .label7{ margin-left: 26%;}
+
+.active{
+    color: #F7DC0C;
+}
+
+/* end question */
+
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png);
+    background-size: cover;
+    height: 430px;
+    max-width: 100%;
+    right: 0;
+    margin-top: 50px;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 20vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 62%;
+    margin-right: 12vh;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption .contact-us{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%; 
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */
+
+
+
+
